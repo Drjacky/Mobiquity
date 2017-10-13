@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mobiquity</string>
+
+    <!-- Category Fragment -->
+    <string name="item_list_category_txtTitle">Default Title</string>
+    <string name="item_list_product_txtTitle">Default Title</string>
+
+    <!-- Detail Fragment -->
+    <string name="fragment_detail_nameAndPrice">Name: %1$s. Price: %2$s %3$s.</string>
+
+</resources>

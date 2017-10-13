@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Main Activity -->
+    <dimen name="activity_main_vContainer_margin">0dp</dimen>
+
+    <!-- Category Fragment -->
+    <dimen name="item_list_product_imgThumbnail_minWidthHeight">36dp</dimen>
+    <dimen name="item_list_product_imgThumbnail_margin">8dp</dimen>
+    <dimen name="item_list_product_txtTitle_size">18sp</dimen>
+    <dimen name="item_list_product_txtTitle_marginLeftRight">8dp</dimen>
+    <dimen name="item_list_category_txtTitle_size">22sp</dimen>
+    <dimen name="item_list_category_txtFullname_marginStart">8dp</dimen>
+    <dimen name="item_list_category_txtTitle_margin">16dp</dimen>
+    <dimen name="item_list_category_imgCaret_marginLeftRight">16dp</dimen>
+
+    <!-- Detail Fragment -->
+    <dimen name="fragment_detail_crdPhoto_margin">5dp</dimen>
+    <dimen name="fragment_detail_photo_height">200dp</dimen>
+    <dimen name="fragment_detail_txtTitle_padding">30dp</dimen>
+    <dimen name="fragment_detail_txtTitle_size">25sp</dimen>
+
+</resources>

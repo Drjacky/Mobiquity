@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_list_category_lnrMain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/item_list_product_lnrMain_bg">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/item_list_product_crdPhoto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/fragment_detail_crdPhoto_margin"
+        android:elevation="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardElevation="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/caret"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/item_list_product_imgThumbnail_margin"
+                android:layout_marginEnd="@dimen/item_list_product_imgThumbnail_margin"
+                android:layout_marginLeft="@dimen/item_list_product_imgThumbnail_margin"
+                android:layout_marginRight="@dimen/item_list_product_imgThumbnail_margin"
+                android:layout_marginStart="@dimen/item_list_product_imgThumbnail_margin"
+                android:layout_marginTop="@dimen/item_list_product_imgThumbnail_margin"
+                android:minHeight="@dimen/item_list_product_imgThumbnail_minWidthHeight"
+                android:minWidth="@dimen/item_list_product_imgThumbnail_minWidthHeight"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="0dp"
+                android:layout_marginEnd="@dimen/item_list_product_txtTitle_marginLeftRight"
+                android:layout_marginLeft="@dimen/item_list_product_txtTitle_marginLeftRight"
+                android:layout_marginRight="@dimen/item_list_product_txtTitle_marginLeftRight"
+                android:layout_marginStart="@dimen/item_list_product_txtTitle_marginLeftRight"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@id/caret"
+                android:layout_toRightOf="@id/caret"
+                android:gravity="start"
+                android:textColor="@color/item_list_product_txtTitle_color"
+                android:textSize="@dimen/item_list_product_txtTitle_size"
+                tools:text="@string/item_list_product_txtTitle" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>
